@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pictureNavigation {
+  @apply focus:outline-none text-2xl sm:text-3xl disabled:opacity-25 disabled:cursor-not-allowed w-10 h-14 sm:w-12 sm:h-12 flex items-center justify-center;
+}
+
+.navbarItems {
+  @apply lg:px-6 sm:px-2 md:px-4;
+}
+
+.navbarAnimation {
+  @apply transition duration-200 ease-in-out transform hover:-translate-y-1 hover:scale-110;
+}
